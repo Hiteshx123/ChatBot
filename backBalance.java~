@@ -1,0 +1,55 @@
+import java.util.Scanner
+class backBalance
+{  
+  public static void main(String[]args)
+  { 
+     HashMap hm = new HashMap();
+    hm.put("Hitesh", new Double(1000));
+    hm.put("Rohan" , new Double(2000));
+    hm.put("Rohit", new Double(3434.34));
+    hm.put("Mohit", new Double(123.22));
+    hm.put("Ashish", new Double(1200.34));
+    hm.put("Khariwal", new Double(99.34));
+    hm.put("Pankaj", new Double(-19.34));
+    Set set = hm.entrySet();
+    
+    Scanner in = new Scanner(System.in);
+    String statement = in.nextLine();
+    while (!statement.equalsIgnoreCase("exit"))
+    {
+      System.out.print("Enter your name: ");
+      String statement = in.nextLine();
+     
+      if (statement.equalsIgnoreCase("Hitesh"))
+      {
+        System.out.print("\nPlease input your pin: ")
+        statement = in.nextLine();
+        while (!statment.equals("hitech"))
+        {
+          System.out.print("\nIncorrect, Please try again: ")
+          statement = in.nextLine
+        }
+        System.out.print("What would you like to do\n Withdraw or Deposit");
+        
+      }
+      else if (statement.equalsIgnoreCase("Rohan"))
+      {
+      }
+      else if (statement.equalsIgnoreCase("Rohit"))
+      {
+      }
+      else if (statement.equalsIgnoreCase("Mohit"))
+      {
+      }
+      else if (statement.equalsIgnoreCase("Ashish"))
+      {
+      }
+      else if (statement.equalsIgnoreCase("Khariwal"))
+      {
+      }
+      else if (statement.equalsIgnoreCase("Pankaj"))
+      {
+      }
+    
+    
+  
